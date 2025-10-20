@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.2fa41986.js",
-    "index.html": "/index.html",
-    "main.2fa41986.js.map": "/static/js/main.2fa41986.js.map"
+    "main.js": "/elie-eid/static/js/main.2fa41986.js",
+    "index.html": "/elie-eid/index.html",
+    "main.2fa41986.js.map": "/elie-eid/static/js/main.2fa41986.js.map"
   },
   "entrypoints": [
     "static/js/main.2fa41986.js"
