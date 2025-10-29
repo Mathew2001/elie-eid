@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import BackButton from './BackButton';
 function Function2() {
-  const [num1, setNum1] = useState('');
-  const [num2, setNum2] = useState('');
+  const [c, setC] = useState('');
+  const [o, setO] = useState('');
   const [result, setResult] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    let res = (num2 - num1) /num1;
+    let res = ((c-o) /o) * 100;
     setResult(res);
     console.log(res);
   };
@@ -18,12 +18,12 @@ function Function2() {
           <BackButton />
           <form className="mt-4" onSubmit={handleSubmit}>
             <div className="mb-3">
-              <label>Number 1:</label>
-              <input type="number" className="form-control" name="num1" placeholder="0" value={num1} onChange={(e) => setNum1(e.target.value)} />
+              <label>C:</label>
+              <input type="number" className="form-control" name="c" placeholder="0" value={c} onChange={(e) => setC(e.target.value)} />
             </div>
             <div className="mb-3">
-              <label>Number 2:</label>
-              <input type="number" className="form-control" name="num2" placeholder="0" value={num2} onChange={(e) => setNum2(e.target.value)} />
+              <label>O:</label>
+              <input type="number" className="form-control" name="o" placeholder="0" value={o} onChange={(e) => setO(e.target.value)} />
             </div>
             <button type="submit" className="btn btn-primary">Calculate</button>
           </form>
