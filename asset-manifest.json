@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/elie-eid/static/css/main.3982bb5f.css",
-    "main.js": "/elie-eid/static/js/main.86c97115.js",
+    "main.js": "/elie-eid/static/js/main.df9798e2.js",
     "index.html": "/elie-eid/index.html",
     "main.3982bb5f.css.map": "/elie-eid/static/css/main.3982bb5f.css.map",
-    "main.86c97115.js.map": "/elie-eid/static/js/main.86c97115.js.map"
+    "main.df9798e2.js.map": "/elie-eid/static/js/main.df9798e2.js.map"
   },
   "entrypoints": [
     "static/css/main.3982bb5f.css",
-    "static/js/main.86c97115.js"
+    "static/js/main.df9798e2.js"
   ]
 }
