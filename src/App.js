@@ -11,6 +11,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/function1" element={<Function1 />} />
         <Route path="/function2" element={<Function2 />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </HashRouter>
   )
