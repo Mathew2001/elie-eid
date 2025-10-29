@@ -7,7 +7,7 @@ function Function2() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    let res = (num1 - num2) /100;
+    let res = (num2 - num1) /num1;
     setResult(res);
     console.log(res);
   };
