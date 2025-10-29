@@ -18,11 +18,11 @@ function Function2() {
           <BackButton />
           <form className="mt-4" onSubmit={handleSubmit}>
             <div className="mb-3">
-              <label>X:</label>
+              <label>Number 1:</label>
               <input type="number" className="form-control" name="x" placeholder="0" value={num1} onChange={(e) => setNum1(e.target.value)} />
             </div>
             <div className="mb-3">
-              <label>Y:</label>
+              <label>Number 2:</label>
               <input type="number" className="form-control" name="y" placeholder="0" value={num2} onChange={(e) => setNum2(e.target.value)} />
             </div>
             <button type="submit" className="btn btn-primary">Calculate</button>
